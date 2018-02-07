@@ -17,7 +17,7 @@ AquariumBot is a simple Twitch chat bot that will allow custom chat commands, ti
 3. _Add_ `apiKey.js` _to the root project directory_
 4. _Write_ `module.exports = "<YOUR FIREBASE API KEY>";` in `apiKey.js`
 5. _Add your Firebase Admin SDK JSON file under the name_ `aquabot-firebase-sdk.json`
-6. _Run_ `node app.js` _from the root project directory_
+6. _Run_ `$node app.js` _from the root project directory_
 
 #### Current Features
 - Posts the proper saved message when the corresponding command is called in a given Twitch stream chat. (Example: !hello => "Hello World" in the chat)
